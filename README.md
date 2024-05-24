@@ -2,6 +2,7 @@
 
 This library provides functionality for implementing circular linked lists in JavaScript.
 This is a circular-linked list library that provides various operations on the circular-linked lists library to visualize and interact with a circular-linked list using animations.
+Go to the link to experience the animation ->  https://chintu1308.github.io/cll-library/src
 
 ## Installation 1
 
@@ -14,7 +15,7 @@ npm install cll-library
 
 To use the CLL library in your project, include the cllpractice.min.js file in your HTML:
 
-```html
+```HTML
 
 <script src="https://cdn.jsdelivr.net/gh/Chintu1308/cll-library/dist/js/cllpractice.min.js"></script>
 ```
@@ -54,7 +55,7 @@ Include the following HTML structure to your webpage where you want the linked l
 ```
 **Method2: Add as a Button**
 add a button as follows
-```html
+```HTML
 <button onclick="openAnimation()">Open Linked List Animation</button>
 ```
 and add the following function to your javascript
@@ -67,7 +68,7 @@ function openAnimation() {
 
 **Embedding in a Web Application**
 
-If you want to add the animation to a web application, such as one built with React, Vue, or Angular, you can use a similar approach with the iframe. Here is an example for a React application:
+If you want to add animation to a web application, such as one built with React, Vue, or Angular, you can use a similar approach with the iframe. Here is an example for a React application:
 
 ```jsx
 
@@ -88,22 +89,22 @@ export default LinkedListAnimation;
 For mobile applications, you can use a WebView component to load the animation. Below are examples for both Android and iOS:
 
 Android (using WebView):
-***1.Add WebView dependency to your build.gradle file:***
+***1. Add WebView dependency to your build.gradle file:***
 
 ```gradle
 dependencies {
     implementation 'androidx.webkit:webkit:1.4.0'
 }
 ```
-***2.Create a WebView in your layout XML file:***
-```xml
+***2. Create a WebView in your layout XML file:***
+```XML
 <WebView
     android:id="@+id/webview"
     android:layout_width="match_parent"
     android:layout_height="match_parent" />
 ```
 
-***3.Load the URL in your Activity:***
+***3. Load the URL in your Activity:***
 
 ```java
 import android.os.Bundle;
