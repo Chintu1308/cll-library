@@ -1,0 +1,27 @@
+{
+    "name": "cll-library",
+    "version": "1.0.0",
+    "description": "A library for implementing circular linked lists in JavaScript.",
+    "main": "dist/js/dllpractice.min.js",
+    "scripts": {
+        "build": "webpack --mode production",
+        "watch": "webpack --watch"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Chintu1308/cll-library.git"
+    },
+    "author": "Hari Hara Charan",
+    "license": "GNU",
+    "dependencies": {
+        "bootstrap": "^3.3.7",
+        "jquery": "^3.3.1"
+    },
+    "devDependencies": {
+        "gulp": "^5.0.0",
+        "gulp-clean-css": "^4.3.0",
+        "gulp-htmlmin": "^5.0.1",
+        "webpack": "^4.46.0",
+        "webpack-cli": "^4.9.0"
+    }
+}

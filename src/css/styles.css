@@ -1,0 +1,71 @@
+#questionid{
+    /* font-size:2vw; */
+    text-align: center;
+}
+#comments{
+  text-align: center;
+  height: 10vh;
+  /* font-size: 1.5vw; */
+}
+#linkedlist{
+    width: 100%;
+}
+#buttondiv{
+    text-align: center;
+}
+
+.button-input {
+    border-radius: 50vw;
+    background-color: #288ec8;
+    border: none;
+    color: white;
+    padding: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.text-box {
+    padding: 7px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    width: 14%;
+}
+
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+.collapsible {
+    background-color: Transparent;
+    color: grey;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-weight: bold;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.collapsible:after {
+    content: "\25BE";
+    color: grey;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.content {
+    padding: 0 1.8vw;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: white;
+}
