@@ -1,7 +1,7 @@
 # cll Library
 
 This library provides functionality for implementing circular linked lists in JavaScript.
-This is a circular-linked list library that provides various operations on circular-linked lists.brary to visA liualize and interact with a circular linked list using animations.
+This is a circular-linked list library that provides various operations on the circular-linked lists library to visualize and interact with a circular-linked list using animations.
 
 ## Installation 1
 
@@ -49,11 +49,11 @@ You can use this library by including the following resources in your HTML file.
 **Method1: Add to HTML Structure**
 Include the following HTML structure to your webpage where you want the linked list animation to appear:
 
-```html
+```HTML
 <iframe src="https://chintu1308.github.io/cll-library/dist" width="650" height="400" frameborder="0"  allowfullscreen></iframe>
 ```
 **Method2: Add as a Button**
-add a button as followed
+add a button as follows
 ```html
 <button onclick="openAnimation()">Open Linked List Animation</button>
 ```
